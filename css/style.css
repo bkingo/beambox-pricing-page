@@ -1,0 +1,44 @@
+.block__header {
+    text-transform: uppercase;
+}
+
+.block--protect .block__header,
+.block--protect .features__item .fa-check {
+    color: #f7cb62;
+}
+
+
+.block--social .block__header,
+.block--social .features__item .fa-check,
+.block--social .features__item .fa-long-arrow-left {
+    color: #52bef5;
+}
+
+.block--marketing .block__header,
+.block--marketing .features__item .fa-check,
+.block--marketing .features__item .fa-long-arrow-left {
+    color: #8ad03d;
+}
+
+.block__description {
+
+}
+
+
+
+.block h3 span,
+.block__description,
+.fa-minus, .fa-plus {
+    color: #9fa9b1;
+}
+
+.locations {
+    border: 1px solid #9fa9b1;
+}
+.locations li {
+    display: inline-block;
+}
+
+.features__item {
+    list-style: none;
+}
