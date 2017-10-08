@@ -1,13 +1,27 @@
 /*stopped on page 13 of smaccs*/
 /*increase letter spacing for certain elements?*/
 
+/*need to come up with percentage based solution for  locations section*/
+
+
 .logo {
     width: 40px;
     height: 33px;
 }
 
-.block__header,
-.locations {
+.title {
+    text-align: center;
+}
+
+.title__trial {
+    border-radius: 3px;
+    color: #fff;
+    background: #8AD03D;
+    padding: 10px 20px;
+
+}
+
+.block__header {
     text-align: center;
 }
 
@@ -28,29 +42,36 @@
 .plan-price {
     font-size: 2.3em;
     font-weight: 500;
-    margin: 0;
+    margin: 0 0 .5rem 0;
 }
 .block-h3-span {
+
 
 }
 
 
 .block__description {
+    margin: 0 0 1.5rem 0;
+}
+
+.block-h3-span,
+.block__description {
     letter-spacing: .3px;
-    margin-top: 0;
 }
 
 
 
 .block-h3-span,
 .block__description {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.1rem;
-    font-weight: 500;
+    word-spacing: 1.5px;
 }
 
 .block-h3-span,
 .block__description,
-.fa-minus, .fa-plus {
+.locations__minus,
+.locations__plus {
         color: #9fa9b1;
 }
 
@@ -60,6 +81,29 @@
 .locations {
     border: 1px solid #e8e8ec;
 }
+
+.locations--single {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.locations__minus,
+.locations__plus {
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.locations__minus {
+    border-right: 1px solid #e8e8ec;
+    margin-right: 42px;
+}
+.locations__plus {
+    border-left: 1px solid #e8e8ec;
+    margin-left: 42px;
+}
+
+
 
 
 .features__item {
